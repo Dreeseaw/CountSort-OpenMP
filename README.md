@@ -7,6 +7,6 @@ My trick to create more parallelism in the final part of the algorithm was to as
 
 Here's some tests sorting a 100-million element array, with integers ranging 0-100K using N threads of dual 10- or 12-core Xeon V2 E5-2680 processors.
 
-| Serial  | 2 Threads |   4   |   6   |   8   |   10   |   12   |   14   |   16   |   18   |   20   |
-| ------- | --------- | ----- | ----- | ----- | ------ | ------ | ------ | ------ | ------ | ------ |
-| 2.50s   |   1.32s   | 1.23s | 0.98s | 0.84s |  0.77s |  0.73s |  0.71s |  0.69s |  0.69s |  0.71s |
+| 1 (Serial) |   2   |   4   |   6   |   8   |   10   |   12   |   14   |   16   |   18   |   20   |
+| ---------- | ----- | ----- | ----- | ----- | ------ | ------ | ------ | ------ | ------ | ------ |
+|    2.50s   | 1.32s | 1.23s | 0.98s | 0.84s |  0.77s |  0.73s |  0.71s |  0.69s |  0.69s |  0.71s |
